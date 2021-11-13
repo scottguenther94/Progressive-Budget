@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("client"));
 
-mongoose.connect("mongodb+srv://karlagoo:Studdmuffin12@cluster0.huncu.mongodb.net/budget-tracker?retryWrites=true&w=majority" || "mongodb://localhost/budget", {
+mongoose.connect("mongodb+srv://scotty:<#Football12>@listen-in-db.infgj.mongodb.net/listen-in-db?retryWrites=true&w=majority" || "mongodb://localhost/budget", {
   useNewUrlParser: true,
   useFindAndModify: false
 });
